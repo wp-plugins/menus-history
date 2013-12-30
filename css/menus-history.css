@@ -1,0 +1,77 @@
+#menus-history-selection {
+    width:26%;
+    float:left;
+    padding:2%;
+    margin-bottom:25px;
+}
+
+#menus-history-selection .title {
+    margin-top:20px;
+    padding:3px;
+}
+
+#menus-history-revision {
+    width:65%;
+    padding:2%;
+    float:right;
+    display:none;
+    overflow:auto;
+}
+
+#menus-history-revision ul {
+    list-style:none;
+    margin:2% 0;
+    font-size:15px;
+    font-weight:bold;
+}
+
+#menus-history-revision ul ul {
+    margin-left:5%;
+}
+
+#menus-history-revision ul li {
+    margin-bottom:15px;
+}
+
+ #menus-history-revision ul .link-info {
+    padding:2%;
+    background:#FFFABB;
+    border-left:3px solid #FD8F8F;
+ }
+
+#menus-history-revision ul label {
+    font-weight:normal;
+    font-size:12px;
+    font-style:italic;
+    display:inline-block;
+    width:140px;
+}
+
+#menus-history-revision .loader,
+#menus-history-revisions .loader{
+    text-align:center;
+}
+
+#menus-history-revisions p {
+    text-align:center;
+}
+
+#menus-history-revisions .latest {
+    font-weight:bold;
+    margin-left:10px;
+    display:inline-block;
+}
+
+@media only screen and (max-width:900px) {
+    #menus-history-selection {
+        width:96%;
+        float:none;
+        padding:2%;
+    }
+
+    #menus-history-revision {
+        width:96%;
+        padding:2%;
+        float:none;
+    }
+}
