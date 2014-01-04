@@ -4,7 +4,7 @@ Donate link: http://binarystash.blogspot.com/
 Tags: menus, menus history, menu history, menu revision, menu revisions
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,7 +59,13 @@ The plugin must be activated to keep track of your menus. Changes done prior to 
 = 1.0 =
 * Stable version
 
+= 1.0.1 =
+* Fixed plugin path
+
 == Upgrade Notice ==
 
 = 1.0 =
 Stable version
+
+= 1.0.1 =
+* Fixed plugin path

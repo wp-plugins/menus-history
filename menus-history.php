@@ -3,13 +3,16 @@
  * Plugin Name: Menus History
  * Plugin URI: http://binarystash.blogspot.com
  * Description: Provides history of changes to Wordpress menus
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: BinaryStash
  * Author URI:  binarystash.blogspot.com
  * License: GPLv2 (http://www.gnu.org/licenses/gpl-2.0.html)
  */
  
-define('PLUGIN_URL', plugin_dir_url( __FILE__ ));
+ 
+if ( !defined('MENUS_HISTORY_URL') ) {
+    define('MENUS_HISTORY_URL', plugin_dir_url( __FILE__ ));
+}
 
 class Menus_History {
     
@@ -38,8 +41,8 @@ class Menus_History {
     
     function enqueue_admin_scripts() {
         wp_enqueue_script('jquery');
-        wp_enqueue_script('menus-history', PLUGIN_URL . '/js/menus-history.js');
-        wp_enqueue_style('menus-history', PLUGIN_URL . '/css/menus-history.css');
+        wp_enqueue_script('menus-history', MENUS_HISTORY_URL . '/js/menus-history.js');
+        wp_enqueue_style('menus-history', MENUS_HISTORY_URL . '/css/menus-history.css');
     }
     
     function add_admin_menu() {
