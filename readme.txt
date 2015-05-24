@@ -34,6 +34,7 @@ Please note the plugin's limitations.
 Credits:
 
 Hourglass icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+
 List icon made by [Anton Saputro](http://www.antonps.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
 
 == Installation ==
