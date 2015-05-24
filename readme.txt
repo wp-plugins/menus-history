@@ -42,7 +42,7 @@ This section describes how to install the plugin and get it working.
 
 1. Upload the plugin folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to Settings->Menus History.
+3. Go to Tools->Menus History.
 4. Follow the on-screen instructions.
 
 == Frequently Asked Questions ==
