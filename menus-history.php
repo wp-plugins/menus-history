@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Menus History
  * Description: Provides history of changes to Wordpress menus
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: BinaryStash
  * Author URI:  http://www.binarystash.net
  * License: GPLv2 (http://www.gnu.org/licenses/gpl-2.0.html)
