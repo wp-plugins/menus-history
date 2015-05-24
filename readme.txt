@@ -1,9 +1,9 @@
 === Menus History ===
 Contributors: binarystash01
-Donate link: http://binarystash.blogspot.com/
+Donate link: http://www.binarystash.net
 Tags: menus, menus history, menu history, menu revision, menu revisions
 Requires at least: 3.5
-Tested up to: 3.8
+Tested up to: 4.2.2
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -31,6 +31,11 @@ Please note the plugin's limitations.
 * The plugin doesn't provide the ability to restore menus; it only shows history information. You still need to manually restore your menus.
 * Deleted menus are also removed from the plugin's menu list.
 
+Credits:
+
+Hourglass icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+List icon made by [Anton Saputro](http://www.antonps.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
@@ -56,16 +61,23 @@ The plugin must be activated to keep track of your menus. Changes done prior to 
 
 == Changelog ==
 
+= 1.0.2 =
+* Moved plugin page under "Tools"
+
+= 1.0.1 =
+* Fixed plugin path
+
 = 1.0 =
 * Stable version
 
-= 1.0.1 =
-* Fixed plugin path
-
 == Upgrade Notice ==
 
-= 1.0 =
-Stable version
+= 1.0.2 =
+* Moved plugin page under "Tools"
 
 = 1.0.1 =
 * Fixed plugin path
+
+= 1.0 =
+* Stable version
+
